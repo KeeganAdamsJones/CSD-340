@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Give the HTML document a title of “CSD 340 Development with HTML and CSS” 
+    Hint: this goes in the <title></title> element-->
+    <title>CSD 340 Development with HTML and CSS</title>
+        
+    <!--In the <head> of the HTML document add a link to <yourLastName_EX2>.css
+        Hint: for help with linking CSS files, refer to page 236 of the course’s textbook -->
+    <link rel="stylesheet" type="text/css" href="jones_EX2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+        
+
+    <!--In the <head> of the HTML document add four (4) meta tags 
+        Hint: see pages 191-192 -->
+    <meta name="description" 
+        content="An introduction to HTML and CSS styling" />
+    <meta name="keywords" 
+        content="CSS, HTML, Web Development, Bellevue University" />
+    <meta name="robots" 
+        content="nofollow" />
+    <meta name="author" 
+        content="Keegan Jones" />
+        
+</head>
+<body>
+    <!--In the body of the HTML document add a <div> and give it a CSS ID of “container” -->
+    <div id="container"> 
+        <!--Add an h1 tag and give this header a book title -->
+        <h1>Learning the basics of HTML and CSS</h1>
+        <!--Add an h2 tag and give this header a chapter title-->
+        <h2>Chapter 1: HTML</h2>
+
+        <!--Visit https://lipsum.com/ and generate four (4) new paragraphs
+            Wrap each paragraph in <p> tags-->
+        <!--Give the first paragraph a CSS class of “intro”-->
+        <p class="intro">
+            <span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu interdum neque, a volutpat nisi. 
+            Curabitur vitae lorem non erat commodo volutpat nec eget ligula. Vestibulum eros nisi, rutrum vitae 
+            volutpat sed, pretium malesuada nulla. Etiam porta ligula ipsum. Mauris varius libero vestibulum ante 
+            molestie mattis. Donec lacus libero, ultrices mollis sollicitudin ac, cursus sit amet orci. Sed blandit 
+            aliquam ligula sit amet eleifend. Sed sed elit risus.
+        </p>
+        
+        <!--Pick a single sentence in any of the paragraphs and apply a CSS class of “sentence” to it
+            Hint: use the <span></span> element and give the span element a CSS class of sentence-->
+        <p>
+            Praesent scelerisque fringilla ante ac tincidunt. Phasellus elementum dui id metus fermentum efficitur. 
+            Phasellus eros erat, pulvinar ac urna sed, lacinia efficitur libero. Maecenas vulputate in libero ac 
+            condimentum. <span class="sentence">Nulla id velit nec nibh maximus convallis. Fusce molestie in ipsum non efficitur. Nunc quis 
+            ante urna.</span> 
+        </p>
+        
+        <p>
+            >Duis nec augue pellentesque, fringilla enim eget, congue purus. In hac habitasse platea dictumst. 
+            Mauris tempor orci tellus, dignissim mollis ex fringilla vel. Pellentesque vel sapien metus. Fusce non 
+            dapibus lorem. Curabitur leo mauris, aliquam a aliquet et, aliquam vitae dui. Praesent eu egestas dolor. 
+            Nunc vitae aliquam ante.
+        </p>
+        
+        <p>
+            Fusce quis felis nunc. Cras ornare viverra diam vitae feugiat. Phasellus elit nibh, bibendum eget 
+            eleifend et, tristique sit amet dui. Aliquam vel fermentum nunc. Nam commodo nulla maximus tellus varius 
+            malesuada eget vel est. Cras ac finibus odio, et tempus velit. Praesent justo magna, ullamcorper ac rhoncus 
+            at, maximus nec lectus. Cras molestie vestibulum ipsum sed faucibus.
+        </p>
+            <!--Underneath the paragraphs add a horizontal line 
+                Hint: use the <hr /> element -->
+        <hr />
+        <!--Underneath the horizontal line, add Bellevue Universities full address (street, city, state, and zip) and a URL to their website
+            Have the address sit below the horizontal line
+            Hint: use the <address></address> element
+            Put each part of the address on its own line, as you would address an envelope you mail (use the paragraph tag)
+            First line: Bellevue University (website link)
+            Second line: street address
+            Third line: city, state, zip-->
+        <address>
+            <p>
+                <a href="https://www.bellevue.edu/" target="_blank">Bellevue University Site</a>
+            </p>    
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, Nebraska 68005</p>
+        </address>
+    </div>
+</body>
+
+</html>
