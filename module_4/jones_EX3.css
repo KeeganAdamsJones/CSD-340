@@ -1,0 +1,57 @@
+#page-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#list-of-movies {
+    width: 45%;
+    float: left; /* keep this column to the left */
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#things-learned {
+    width: 45%;
+    float: right; /* keep this column to the right */
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+        
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 60%;
+
+}
+#back-to-top {
+    float: right; /* sets it to the right */
+    margin-bottom: 20px;
+}
+
+h3{
+    font-weight: 500;
+}
+
+/* remove underlines from url and set the font  */
+#favorite-url, #back-to-top {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* add hover to favorite-url and back-to-top and underlines when hovering */
+#favorite-url:hover, #back-to-top:hover {
+    text-decoration: underline;
+}
+
+
+
