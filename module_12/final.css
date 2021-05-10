@@ -1,7 +1,6 @@
 body {
     margin: 0 auto;
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
-<<<<<<< HEAD
     background-color: #e4e4ec;
     color: black;
 }
@@ -51,13 +50,7 @@ h1 {
     text-align: center;
 }
 
-.hobbies {
-    
-}
-
 .experience {
-    
-=======
     background-color: #284861;
 }
 
@@ -68,4 +61,3 @@ header {
     color: #D6D9F0;
 }
 
->>>>>>> 0617a2e4a41f5a9cc1bd595d686b7f8bd41c2eb9
