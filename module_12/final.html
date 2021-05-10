@@ -12,26 +12,37 @@
 </head>
 
 <body>
-    <header id="home">
+    <header id="top">
         Keegan Adams Jones
     </header>
 
+    <nav class="navbar">
+        <ul>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#experiences">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
     <div class="container">
 
         <div class="portrait">
         
             <figure class="portrait-1">
                 <img src="images/onVeniceBridge.JPG" alt="Keegan standing on a bridge in Venice." style="width:500px;height:375px;" class="center">
-                <figcaption>
+                <figcaption class="caption">
                     Keegan standing on a bridge in Venice, February 2019.
                 </figcaption>
             </figure>
         
-        <div class="hobbies">
+        <div class="hobbies" id="hobbies">
             <h1>Hobbies</h1>
 
             <div class="hobbies-grid">
-                <div class="hobbies">
+                <div class="hobby">
+                    <figure class="image">
+                        <img src="images/earrings.jpeg" alt="Earrings made by Keegan." style="width:150px;height:150px;" class="center">
+                    </figure>
                     <div class="hobby-title">
                         Art
                     </div>
@@ -39,11 +50,14 @@
                         Keegan received her Bachelor of Fine Arts degree from Pittsburg State
                         University where she studied ceramics.  She also completed part of a 
                         Master of Arts degree with a focus on jewelry and metalsmithing.  She 
-                        enjoys doing ceramics, metal work, jewelry as well as drawing and painting.
+                        enjoys doing ceramics, metal work and jewelry, as well as drawing and painting.
                     </div>
                 </div>
 
-                <div class="hobbies">
+                <div class="hobby">
+                    <figure class="image">
+                        <img src="images/flowers.JPG" alt="Flowers from Keegan's garden." style="width:113px;height:150px;" class="center">
+                    </figure>
                     <div class="hobby-title">
                         Gardening
                     </div>
@@ -55,13 +69,16 @@
                     </div>
                 </div>
 
-                <div class="hobbies">
+                <div class="hobby">
+                    <figure class="image">
+                        <img src="images/butterfly.JPG" alt="Nellie and Olivia looking at a butterfly." style="width:200px;height:150px;" class="center">
+                    </figure>
                     <div class="hobby-title">
                         Birds and Butterflies
                     </div>
                     <div class="hobby-content">
                         Keegan has a love of birds and Butterflies.  She has a pet parakeet indoors,
-                        and outside has a bunch of fancy chickens and ducks and one peacock named, Kevin.  
+                        and outside Keegan has a bunch of fancy chickens and ducks and one peacock named, Kevin.  
                         She also feeds and enjoys a lot of hummingbirds every summer and has a bluebird 
                         nest-box that is occupied spring through fall.  Her daughters love caterpillars 
                         and butterflies, so they enjoy growing caterpillars to butterflies for release together.
@@ -73,41 +90,50 @@
         
         <br /><br /><br />
         
-        <div class="experiences">
+        <div class="experiences" id="experiences">
 
             <h1>Experience</h1>
 
             <div class="experience-grid">
                 <div class="experience">
+                    <figure class="image">
+                        <img src="images/bellevue.jpg" alt="Bellevue University Logo." style="width:150px;height:150px;" class="center">
+                    </figure>
                     <div class="experience-title">
                         Higher Education
                     </div>
                     <div class="experience-content">
                         Keegan completed a bachelor’s degree in Fine Art at Pittsburg State University in 2006.  
                         She also has graduate credits toward a Master of Arts degree.  Keegan is currently working 
-                        on a second bachelor’s degree in computer science from Bellevue University, with anticipated 
+                        on a second bachelor’s degree in computer science from Bellevue University, with an anticipated 
                         graduation in 2021.
                     </div>
                 </div>
 
                 <div class="experience">
+                    <figure class="image">
+                        <img src="images/kids.jpeg" alt="Photo of Keegan's 3 children." style="width:225px;height:150px;" class="center">
+                    </figure>
                     <div class="experience-title">
                         Motherhood and Family
                     </div>
                     <div class="experience-content">
                         Keegan married her husband, Jody, in 2011. She is a mother of 3 children.  Nellie was born in 2012, Olivia 
                         was born in 2013, and her youngest and only son, Afton, was born in 2020.  Keegan stayed home to care for 
-                        her children since her first daughter was born but is planning to return to work in the Spring/Summer of 2022 
+                        her children since her first daughter was born, but is planning to return to work in the Spring/Summer of 2022 
                         after graduating with her Computer Science Degree.  
                     </div>
                 </div>
 
                 <div class="experience">
+                    <figure class="image">
+                        <img src="images/pittstate.png" alt="Pittsburg State University Logo." style="width:147px;height:150px;" class="center">
+                    </figure>
                     <div class="experience-title">
                         Employment
                     </div>
                     <div class="experience-content">
-                        During graduate school at Pittsburg State University, Keegan taught a general education course as a graduate 
+                        During graduate school, at Pittsburg State University, Keegan taught a general education course as a graduate 
                         assistant.  This was her favorite job.  She has also worked in retail management and banking.  She has enjoyed 
                         her time off to raise her children and is looking forward to a career in computer programming and/or web development.  
                     </div>
@@ -119,10 +145,10 @@
         <div class="contact-container">
             <div class="contact">
                 <div class="contact-title">
-                    Contact Keegan
+                    Contact Keegan:
                 </div>
 
-                <div class="contact-content">
+                <div class="contact-content" id="contact">
 
                     <div class="form">
                         <div class="form-field">
@@ -134,16 +160,24 @@
                             <input type="text" id="txtLastName" class="input"/>
                         </div>
                         <div class="form-field">
-                            <label for="txtEmail">Please write your message here:</label>
+                            <label for="txtEmail">Please write your email message here:</label>
                             <input type="text" id="txtMessage" class="input" />
                         </div>
                         <div class="form-field">
-                            <button type="submit" class="btn btn-primary full-width">Submit Message</button>
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+   
+    <nav class="navbar">
+        <ul>
+            <li><a href="#top">Top</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#experiences">Experience</a></li>
+        </ul>
+    </nav>
 
 </body>
